@@ -27,11 +27,6 @@ Plugin 'scrooloose/nerdtree'
 
 Plugin 'Valloric/YouCompleteMe' 
 
-Plugin 'python-mode/python-mode'
-
-" enable python 3 syntax checking
-let g:pymode_python = 'python3'
-
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
