@@ -1,0 +1,47 @@
+[global_config]
+  handle_size = 10
+  extra_styling = False
+  title_transmit_fg_color = "#e2e2e0"
+  title_transmit_bg_color = "#787878"
+  title_receive_fg_color = "#eeeeec"
+  title_receive_bg_color = "#787878"
+  title_inactive_fg_color = "#bebebd"
+  title_inactive_bg_color = "#555555"
+  inactive_color_offset = 0.905844155844
+  enabled_plugins = ,
+  suppress_multiple_term_dialog = True
+  always_split_with_profile = True
+[keybindings]
+  go_up = <Primary><Shift>k
+  go_down = <Primary><Shift>j
+  go_left = <Primary><Shift>h
+  go_right = <Primary><Shift>l
+  split_horiz = <Primary><Shift>i
+  split_vert = <Primary><Shift>o
+  move_tab_right = <Primary><Shift>Right
+  move_tab_left = <Primary><Shift>Left
+  toggle_zoom = <Primary>x
+  new_window = None
+  layout_launcher = None
+[profiles]
+  [[default]]
+    background_color = "#282828"
+    background_darkness = 0.98
+    background_type = transparent
+    backspace_binding = control-h
+    cursor_color = "#aaaaaa"
+    font = Source Code Pro Medium 12
+    foreground_color = "#a2a2a2"
+    scrollback_infinite = True
+    palette = "#555555:#9c3528:#61bc3b:#f3b43a:#4d727c:#744560:#288e9c:#a2a2a2:#888888:#d64937:#86df5d:#fdd75a:#58afc7:#9e5e83:#37c3d6:#f9f9f9"
+    use_system_font = False
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      profile = default
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
