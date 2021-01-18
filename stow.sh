@@ -10,7 +10,7 @@ if [[ $(dnf list installed|grep -c ${stowPkg}) -lt 1 ]]; then
   echo "${stowPkg} not installed.  To install, run \"sudo dnf install -y ${stowPkg}\""
   exit 1
 fi
-cd ~/configs || ( echo "error" && exit 1 )
+cd ~/dotfiles || ( echo "error" && exit 1 )
 #-- Majority configs
 for package in ${packages}; do
   if [[ $(dnf list installed|grep -c ${package}) -lt 1 ]]; then
