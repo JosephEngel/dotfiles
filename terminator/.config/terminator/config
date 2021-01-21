@@ -23,6 +23,7 @@
   toggle_zoom = <Primary>x
   new_window = None
   layout_launcher = None
+  help = ""
 [profiles]
   [[default]]
     background_color = "#282828"
