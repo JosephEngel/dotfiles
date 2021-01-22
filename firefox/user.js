@@ -211,7 +211,7 @@ user_pref("browser.shell.shortcutFavicons", false);
 /*** [SECTION 1400]: FONTS ***/
 user_pref("_user.js.parrot", "1400 syntax error: the parrot's bereft of life!");
 user_pref("gfx.font_rendering.opentype_svg.enabled", false); // disable rendering of SVG OpenType fonts
-user_pref("gfx.font_rendering.graphite.enabled", false); disable graphite - Graphite has had many critical security issues in the past
+user_pref("gfx.font_rendering.graphite.enabled", false); // disable graphite - Graphite has had many critical security issues in the past
 
 /*** [SECTION 1700]: CONTAINERS
      If you want to *really* leverage containers, we highly recommend Temporary Containers [2].
