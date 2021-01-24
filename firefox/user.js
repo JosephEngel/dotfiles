@@ -160,7 +160,7 @@ user_pref("browser.urlbar.dnsResolveSingleWordsAfterSearch", 0);
 
 user_pref("browser.urlbar.autoFill", false);
 /* URL Bar suggestions */
-// user_pref("browser.urlbar.suggest.history", false);
+user_pref("browser.urlbar.suggest.history", false);
 user_pref("browser.urlbar.suggest.bookmark", false);
 user_pref("browser.urlbar.suggest.openpage", false);
 // user_pref("browser.urlbar.suggest.topsites", false); // [FF78+]
