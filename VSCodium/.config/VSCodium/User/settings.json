@@ -1,0 +1,14 @@
+{
+    "editor.renderWhitespace": "boundary",
+    "editor.accessibilitySupport": "off",
+    "editor.fontFamily": "'Fira Code Retina','SF Mono'",
+    "editor.fontSize": 16,
+    "window.menuBarVisibility": "visible",
+    "window.zoomLevel": 0,
+    "workbench.enableExperiments": false,
+    "update.mode": "manual",
+    "extensions.autoUpdate": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "git.autofetch": true,
+    "npm.fetchOnlinePackageInfo": false
+}
