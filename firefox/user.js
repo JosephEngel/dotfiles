@@ -370,6 +370,10 @@ user_pref("extensions.postDownloadThirdPartyPrompt", false);
   * [1] https://bugzilla.mozilla.org/buglist.cgi?bug_id=1384330,1406795,1415644,1453988 ***/
     // user_pref("extensions.webextensions.restrictedDomains", "");
 
+
+// HomePage
+user_pref("browser.startup.homepage", "about:home"); // set homepage to new tab page
+
 // New tab page
 user_pref("browser.newtabpage.activity-stream.feeds.section.topstories", false);
 user_pref("browser.newtabpage.activity-stream.", false);
