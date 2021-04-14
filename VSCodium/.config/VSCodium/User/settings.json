@@ -4,11 +4,15 @@
     "editor.fontFamily": "'Fira Code Retina','SF Mono'",
     "editor.fontSize": 16,
     "window.menuBarVisibility": "visible",
-    "window.zoomLevel": 0,
     "workbench.enableExperiments": false,
     "update.mode": "manual",
     "extensions.autoUpdate": false,
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "git.autofetch": true,
-    "npm.fetchOnlinePackageInfo": false
+    "npm.fetchOnlinePackageInfo": false,
+    "explorer.confirmDelete": false,
+    "python.analysis.logLevel": "Information",
+    "python.autoComplete.addBrackets": true,
+    "python.experiments.enabled": false,
+    "python.languageServer": "None"
 }
