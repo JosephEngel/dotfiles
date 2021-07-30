@@ -16,8 +16,8 @@
   go_down = <Primary><Shift>j
   go_left = <Primary><Shift>h
   go_right = <Primary><Shift>l
-  split_horiz = <Primary><Shift>i
-  split_vert = <Primary><Shift>o
+  split_horiz = <Primary><Shift>o
+  split_vert = <Primary><Shift>i
   move_tab_right = ""
   move_tab_left = ""
   toggle_zoom = <Primary>x
