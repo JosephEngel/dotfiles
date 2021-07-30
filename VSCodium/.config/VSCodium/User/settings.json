@@ -14,5 +14,6 @@
     "python.analysis.logLevel": "Information",
     "python.autoComplete.addBrackets": true,
     "python.experiments.enabled": false,
-    "python.languageServer": "None"
+    "python.languageServer": "None",
+    "window.zoomLevel": 1
 }
